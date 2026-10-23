@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ironworks Gym — Strength training in your city</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap 4 used only for its container/row/col grid on the trainers section -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="wrap">
+      <a href="index.html" class="nav-mark">IRON<span>WORKS</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#join">Membership</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+      <a href="register.html" class="nav-cta">Join now</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">OPEN 5AM &ndash; 11PM, SEVEN DAYS</p>
+        <h1>Train where <em>strength</em> is built, not bought.</h1>
+        <p>Ironworks is a barbell-first gym for people who want to get measurably stronger &mdash; coached lifting,
+          honest programming, and a floor with no mirrors to hide behind.</p>
+        <div class="hero-actions">
+          <a href="register.html" class="btn btn-primary">Start your membership</a>
+          <a href="#classes" class="btn btn-outline">See the class schedule</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>1,200+</strong><span>Members training weekly</span></div>
+          <div><strong>14</strong><span>Coached classes / week</span></div>
+          <div><strong>9</strong><span>Years on the same floor</span></div>
+        </div>
+      </div>
+      <svg class="hero-plates" viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg" role="img"
+        aria-label="Illustration of stacked weight plates on a barbell">
+        <circle cx="210" cy="210" r="150" fill="none" stroke="#2c2e35" stroke-width="1.5" />
+        <circle cx="210" cy="210" r="115" fill="none" stroke="#2c2e35" stroke-width="1.5" />
+        <rect x="0" y="188" width="120" height="44" rx="4" fill="#23252b" />
+        <rect x="300" y="188" width="120" height="44" rx="4" fill="#23252b" />
+        <circle cx="150" cy="210" r="95" fill="#1e1f25" stroke="#2c2e35" stroke-width="2" />
+        <circle cx="150" cy="210" r="60" fill="none" stroke="#2c2e35" stroke-width="2" />
+        <circle cx="150" cy="210" r="14" fill="#14151a" />
+        <circle cx="270" cy="210" r="95" fill="#ff5a33" />
+        <circle cx="270" cy="210" r="60" fill="none" stroke="#c9431f" stroke-width="2" />
+        <circle cx="270" cy="210" r="14" fill="#14151a" />
+      </svg>
+    </div>
+  </header>
+
+  <section class="section" id="classes">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Today's floor schedule</h2>
+        <p>Drop into any class with your membership &mdash; no separate sign-up needed.</p>
+      </div>
+      <div class="schedule">
+        <div class="schedule-item">
+          <p class="schedule-time">06:00</p>
+          <h3>Barbell Basics</h3>
+          <p>Squat, press and pull technique for lifters new to the platform.</p>
+        </div>
+        <div class="schedule-item">
+          <p class="schedule-time">07:30</p>
+          <h3>Strength Block</h3>
+          <p>Programmed heavy sets on the big three, coached in small groups.</p>
+        </div>
+        <div class="schedule-item">
+          <p class="schedule-time">12:15</p>
+          <h3>Conditioning</h3>
+          <p>Sleds, rowers and carries &mdash; built to finish, not to impress.</p>
+        </div>
+        <div class="schedule-item">
+          <p class="schedule-time">18:00</p>
+          <h3>Open Platform</h3>
+          <p>Coach on the floor, you run your own session at your own pace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trainers">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Coached by lifters, not influencers</h2>
+        <p>Every coach on staff still competes or trains competitively themselves.</p>
+      </div>
+      <!-- Bootstrap 4 grid classes (container-fluid/row/col) -->
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="trainer-card">
+              <div class="trainer-avatar">RM</div>
+              <h3>Rana Mehta</h3>
+              <span class="trainer-role">Head Coach, Powerlifting</span>
+              <p>National-level competitor, 11 years coaching raw squat, bench and deadlift.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="trainer-card">
+              <div class="trainer-avatar">DS</div>
+              <h3>Devraj Singh</h3>
+              <span class="trainer-role">Conditioning Coach</span>
+              <p>Runs the sled and engine work &mdash; former strongman, now full-time coach.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="trainer-card">
+              <div class="trainer-avatar">AK</div>
+              <h3>Anya Kapoor</h3>
+              <span class="trainer-role">Beginner Programs</span>
+              <p>Specialises in first-year lifters &mdash; patient, technical, no ego.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" id="join">
+    <div class="wrap">
+      <h2>Your first class is free. Bring your own chalk.</h2>
+      <a href="register.html" class="btn btn-outline">Register for membership</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span class="nav-mark">IRON<span>WORKS</span></span>
+      <p>&copy; 2026 Ironworks Gym. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
